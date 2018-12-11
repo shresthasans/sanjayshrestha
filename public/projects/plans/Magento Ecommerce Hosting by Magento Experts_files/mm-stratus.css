@@ -1,0 +1,203 @@
+.stra-highlight__cnt {
+    margin-top: 30px !important;
+}
+
+.helper-calc {
+    margin: 20px 0 !important;
+    padding: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .home-plans h2 {
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 15px !important;
+    }
+}
+
+
+/* 
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: auto;
+    height: 100%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    transform: rotateY(180deg);
+} */
+
+.stopfade {
+    opacity: .5;
+}
+
+.video-cnt {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    text-align: left;
+    color: #3a314e;
+}
+
+.video-cnt p {
+    font-size: 2.7rem;
+    margin: 0;
+}
+
+.stra-signup {
+    background: #f88f01;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 0px 0px 50px 0px
+}
+
+.stra-signup .sugnup-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+    padding: 0;
+    color: #fff;
+}
+
+.stra-btn--blue {
+    background: #1a1135;
+}
+
+.stra-btn--blue:hover,
+.stra-btn--blue:active,
+.stra-btn--blue:focus {
+    background: #483486;
+}
+
+@media screen and (max-width: 767px) {
+    .stra-signup .sugnup-title {
+        margin-bottom: 20px;
+        display: block;
+    }
+    .stra-signup {
+        margin: 0px -10px 0px -10px
+    }
+}
+
+.stra-price-calc {
+    margin-top: 20px;
+}
+
+.home-hero,
+.hero-partner-offer {
+    background: url(/magento/skin/frontend/b-responsive/magemojo/images/hand.jpg) no-repeat center center #dddddd;
+    background-size: cover;
+    position: relative;
+    min-height: 500px;
+    margin-bottom: 70px;
+}
+
+
+/* .cms-index-index .header-panel,
+.cms-index-index .header {
+    background: #3a324d;
+} */
+
+.header-bg {
+    background: url(/magento/skin/frontend/b-responsive/magemojo/images/hero.jpg) no-repeat top center #dddddd;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    min-height: 135px;
+}
+
+@media screen and (min-width: 768px) {
+    .home-hero,
+    .hero-partner-offer {
+        background-position: center 0;
+        height: calc(100vh - 130px);
+    }
+    .home-hero .hero-wrapper,
+    .hero-partner-offer .hero-wrapper {
+        min-height: 650px;
+    }
+}
+
+@media screen and (max-width: 1038px) {
+    .video-cnt {
+        left: 4%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .video-cnt {
+        left: 12%;
+    }
+    .home-hero,
+    .hero-partner-offer {
+        margin-bottom: 30px
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 881px) {
+    .header-bg {
+        min-height: 170px;
+    }
+    .home-hero,
+    .hero-partner-offer {
+        height: calc(100vh - 170px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mag-criteria__box {
+        position: relative;
+        margin-bottom: 35px;
+        padding-top: 35px;
+    }
+    .mag-criteria__box h3 {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: 0;
+        padding: 0;
+        transform: translateX(-50%);
+    }
+    .stra-btn--orange {
+        font-size: 16px;
+    }
+    .video-cnt {
+        left: 20px;
+    }
+    .video-cnt img {
+        width: 200px;
+    }
+    .home-hero,
+    .hero-partner-offer {
+        background-position: center center
+    }
+    .btn:not(.btn-link) {
+        min-width: 100%;
+        white-space: inherit;
+    }
+    .header-bg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home-hero,
+    .hero-partner-offer {
+        background-size: 500px auto;
+        background-position: top right;
+        min-height: 400px;
+        margin-bottom: 30px
+    }
+    .video-cnt p {
+        font-size: 1.8rem;
+    }
+    .stra-highlight__title {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,40 @@
+.ul-plans__wrap {
+    margin: 50px 0;
+}
+
+.ul-plans {
+    display: block;
+    text-align: center;
+}
+
+.ul-plans li {
+    display: inline-block;
+    margin: 0 10px;
+    float: none;
+}
+
+.ul-plans li a {
+    font-size: 22px;
+    color: #3a314e;
+    font-weight: bold;
+}
+
+.ul-plans li.active {
+    border-bottom: 2px solid #f38700;
+}
+
+.ul-plans li.active a,
+.ul-plans li.active a:active {
+    color: #f38700 !important;
+}
+
+.ul-plans li.active a,
+.ul-plans li.active a:hover,
+.ul-plans li.active a:active,
+.ul-plans li.active a:visited,
+.ul-plans li a,
+.ul-plans li a:hover,
+.ul-plans li a:active,
+.ul-plans li a:visited {
+    border: none !important;
+}
